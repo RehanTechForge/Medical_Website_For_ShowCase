@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Ubuntu:ital,wght@1,500&display=swap');
+
+/*font-faimly: 'Baloo 2', cursive;
+font-family: 'Ubuntu', sans-serif;*/
+.my_menu{
+	  position: sticky !important;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
+	background-color: #E5E8E8 !important;
+}
+.my_input{
+	border: 1px solid #D6DBDF !important;
+}
+.my_nav{
+  color: #9fa0a7;
+      font-size: 20px;
+}
+.my_nav:hover{
+  color: #4a5bb1
+
+}
+.my_search{
+	color: black;
+}
+.my_font{
+	font-family: 'Ubuntu', sans-serif;
+}
+.my_font_1{
+	font-family: 'Baloo 2', cursive;
+}
+.my_ftn_size{
+	font-size: 35px;
+	
+}
+.my_main_heading_hover:hover{
+	color: #453967 !important;
+}
+.my_main_heading_back_hover{
+	color: black !important;
+}
+.my_main_heading_back_hover:hover{
+	background-color: #453967 !important;
+	color: #7380c0 !important;
+}
+.mycolor{
+	    background:  !important;
+}
+.mycolor1{
+	    background: lightgreen !important;
+}
+.my_btn{
+	background-color: #ABB2B9 ;
+	color: #fbfcfd;
+	border: none
+}
+.my_btn_slider{
+	padding: 12px;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+}
+.my_btn_slider:hover{
+	background: none;
+	color: black;
+	border: 1px solid black
+}
+.my_btn_slider_1{
+	padding: 12px;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+}
+.my_btn_slider_1:hover{
+	background: none;
+	color: white;
+	border: 1px solid black
+}
+.color{
+	color: #3b3663;
+	font-weight: bold;
+	
+}
+.my_flex{
+	display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.my_section{
+	color: #7380c0;
+	font-size: 20px;
+  font-family: 'Baloo 2', cursive;
+}
+.para{
+	color: #6d8dc3;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+}
+.my_icon{
+	font-size: 65px;
+	color: #efeff0;
+}
+.main{
+	font-size: 20px;
+	color: #5e626e;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sm_main{
+	font-size: 25px;
+}
+.my_colsec{
+  background-color: #f6f6f6;
+}
+.my_anchor{
+  background: #fff;
+border-radius: 5px;
+color: #6984c2;
+font-size: 25px;
+border-radius: 10px;
+}
+.my_anchor:hover{
+  color: #3b3663;
+}
+.myh{
+  font-family: 'Baloo 2', cursive;
+
+}
+.myh:hover{
+      color: white !important;
+}
+.myh1{
+  font-family: 'Baloo 2', cursive;
+
+}
+.myh1:hover{
+      color: black !important;
+      cursor: pointer;
+}
+.myres{
+  color: #6a6792; font-size: 20px;font-family: 'Ubuntu', sans-serif;
+}
+.bg{
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+.my_icon{
+  font-size: 40px;
+  color: black;
+}
+.my_icon_dis{
+  display: flex;
+  cursor: pointer;
+align-items: center;
+justify-content: center;
+}
+.mypara{
+  text-align: center;
+font-size: 25px;
+color: #3b3663;
+font-family: 'Baloo 2', cursive;
+}
+.my_lg_btn{
+  width:250px;border:1px solid black;font-size:25px;font-family: 'Ubuntu', sans-serif;
+}
+.bg_sec{
+  background-color: #f7f7f7;
+}
+.borderradius{
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.mysection1{
+  font-size: 20px;
+    margin-top: 15px;
+    color: #7f8285;
+    font-family: 'Ubuntu', sans-serif;
+}
+#rotate{
+  transform: rotate(120deg);
+  font-size: 40px;
+}
+#my-hea:hover{
+  color: #729ed8 !important;
+  cursor: pointer;
+}
+.two-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+
+}
+
+.info{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  grid-gap: 25px;
+}
+.my_img{
+  background: url('../images/section/006.jpeg');
+  background-repeat: no-repeat;
+}
+.my_rgb{
+  background: rgba(0,0,0,0.55)
+}
+.my_text{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.my_text_para{
+  color: #afb4ba;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  /*display: none;*/
+  padding: 80px;
+  text-align: center;
+  display: block; */
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active1, .dot1:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: #3f3262;font-size: 25px;}
+
+.my_colo{
+  background-color: #f7f7f7;
+}
+.myfig{
+  overflow: hidden;
+}
+.my_img_over:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.bor{
+
+  background-color: #ffffff;
+}
+.hea{
+  color: #3b366c;font-weight: bold;
+}
+.hea:hover{
+  color:#6a85c3;
+  cursor: pointer;
+}
+.myco{
+  background-color: #f7f7f7;
+}
+.img_f{
+  filter: grayscale(1);
+transition: 0.3s ease;
+opacity: .5;
+border-radius: var(--border-radius);
+}
+.img_f:hover{
+  filter: grayscale(0);
+transition: 0.3s ease;
+opacity: 1;
+cursor: pointer;
+}
+.top-right-info li {
+  display: inline-block;
+}
+ul{
+  margin: 0;
+  margin-top: 0px;
+padding: 0;
+}
+.top-right-info li a {
+  color: #ddd;
+  background: #3c3e46;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 2px;
+  display: inline-block;
+  /* transition: 0.3s all;
+  -webkit-transition: 0.3s all; */
+  -moz-transition: 0.3s all;
+  /* -o-transition: 0.3s all;
+  -ms-transition: 0.3s all; */
+}
+.my{
+  background-color: #121725;
+}
+.myc{
+  color: #f3f3f2;
+  
+}
+.myc h2{
+  font-weight: bold;
+}
+.myc p{
+  color: #aaaaa4;
+  line-height: 1.5;
+font-size: 18px;
+font-family: 'Ubuntu', sans-serif;
+}
+.myh:hover{
+  cursor: pointer;
+  color: white;
+}
+.fa:hover{
+  background-color: #3b5998;
+}
+.tw:hover{
+  background-color: #22a3f2;
+}
+.ga:hover{
+  background-color: #f44336;
+}
+.da:hover{
+  background-color: #ea4c89;
+}
+.bt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myfc{
+  background-color: #191b2d;
+  font-size: 38px;
+
+}
+/* 
+// about pages customization */
+
+.m_img{
+  background: url('../images/about/001.jpeg');
+  background-repeat: no-repeat;
+}
+.mimg_rgb{
+  background: rgba(0,0,0,0.55)
+}
+.mc{
+  color: white;
+  font-weight: bold;
+  font-faimly: 'Baloo 2', cursive;
+}
+.img-area {
+  overflow: hidden;
+  position: relative;
+  border-radius: var(--border-radius);
+}
+.img-area img {
+  transition: all 0.4s ease 0s;
+}
+.img-area:hover img {
+  transform: scale(1.2);
+}
+.img-area .social {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.single-team:hover .social {
+  cursor: pointer;
+  opacity: 1;
+  transform: rotateY(0deg) scale(1, 1);
+}
+.img-area .social ul {
+  text-align: center;
+  position: relative;
+  top: 175px;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.img-area .social ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.img-area .social ul li a {
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+.img-area .social ul li a:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid transparent;
+}
+@media (max-width: 768px)
+.img-area img {
+    display: inline-block;
+}
+.my_fig{
+  text-align: center;
+  color: #5e626e;
+}
+.my_c{
+  color: #3b3663;
+}
+.mc_no{
+  background-color: #748dc7;
+  color: #fcfcfe;
+}
+.mno{
+  font-weight: bold;
+}
+.mybt{
+  font-weight: bold;
+  background-color: #fcfcfe;
+  color: #3b3663;
+  font-size: 20px;
+
+}
+.mybt:hover{
+  color: black;
+  background: #fcfcfe;
+}
+.mybt1{
+   font-weight: bold;
+   font-size: 20px;
+   color: #fcfcfe;
+   background: none;
+   border: 1px solid #fcfcfe;
+}
+.mybt1:hover{
+  background-color: #fcfcfe;
+  color: black;
+}
+.m{
+  color: #3b3663;
+  font-weight: bold;
+}
+.qw{
+      font-size: 20px;
+    line-height: 1.3;
+    /* color: #dadbde; */
+    color: #5e6296;
+}
+.myf{
+  border: 1px solid #dddddd;
+}
+.my-f{
+  color: #413663;
+  font-weight: bold;
+}
+.mq{
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.block1{
+  color: #3b3663;
+font-size: 25px;
+}
+.block2{
+  text-align: center;
+font-size: 18px;
+color: #816c71;
+}
+.mbt{
+  font-size: 30px;
+  color: #fca3a3;
+}
+.mbt:hover{
+  color: #fe4c4c;
+  cursor: pointer;
+}
+.mbt1{
+  font-size: 30px;
+  color: #7dccf3;
+}
+.mbt1:hover{
+  color: #009cea;
+  cursor: pointer;
+}
+.mbt2{
+  font-size: 30px;
+  color: #fda5be;
+}
+.mbt2:hover{
+  color: #fe4e81;
+  cursor: pointer;
+}
+.mbt3{
+  font-size: 30px;
+  color: #97e2b6;
+}
+.mbt3:hover{
+  color: #0abf52;
+  cursor: pointer;
+}
+.me{
+  color: #3b3663;
+}
+.me1{
+  color: #6b7fa0;
+  font-size: 20px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.mcol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+.ms{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+}
+.ms span i{
+  color: #6984c2;
+font-size: 30px;
+}
+.ms span{
+  font-size: 29px;
+  padding: 0px 0px 0px 5px;
+  cursor: pointer;
+  color: #3b3663;
+}
+.my_round{
+  border-radius: 5px;
+}
+.my_p{
+  font-size: 20px;
+color: #635e6a;
+}
+.my_p_1{
+  font-size: 23px;
+color: #635e6a;
+text-align: justify;
+}
+.my_li{
+  line-height: 1.5;
+}
+.my_he{
+  color: #454473;
+}
+.my_menu_two{
+  color: #6984c2;
+  font-size: 25px;
+border-radius: 10px;
+}
+.my_font_f{
+  font-size: 20px;
+  color: #6b6071;
+}
